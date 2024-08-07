@@ -13,7 +13,7 @@ export const Blogs = ({ blogs }: { blogs: Blog[] }) => {
     <div className="max-w-5xl mx-auto my-10">
       {blogs.map((blog, index) => (
         <motion.div
-          key={blog.slug}
+          key={blog.title}
           initial={{
             opacity: 0,
             x: -50,
@@ -26,13 +26,13 @@ export const Blogs = ({ blogs }: { blogs: Blog[] }) => {
         >
           <Link
             key={`blog-${blog.title}`}
-            href={`/blog/${blog.slug}`}
+            href={blog.link}
             className="relative my-10 block"
-            onMouseEnter={() => setHovered(blog.slug)}
+            onMouseEnter={() => setHovered(blog.link)}
             onMouseLeave={() => setHovered(null)}
           >
             <AnimatePresence mode="wait">
-              {hovered === blog.slug && (
+              {hovered === blog.link && (
                 <motion.div
                   initial={{
                     opacity: 0,
@@ -71,14 +71,7 @@ export const Blogs = ({ blogs }: { blogs: Blog[] }) => {
                   {blog.description}
                 </Paragraph>
                 <div className="flex space-x-2 flex-wrap mt-4">
-                  {blog.tags?.map((tag, index) => (
-                    <span
-                      key={`tag-${blog.slug}`}
-                      className="text-xs px-1 py-0.5 text-secondary border border-neutral-200 bg-white rounded-md"
-                    >
-                      {tag}
-                    </span>
-                  ))}
+             
                 </div>
               </div>
             </div>
