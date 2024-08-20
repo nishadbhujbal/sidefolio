@@ -30,7 +30,7 @@ export const products = [
     ),
   },
   {
-    href: "/",
+    href: "https://k3df.vercel.app/",
     title: "Karnix 3D Farm landing page",
     description:
       "A landing page for a 3D printing farm to showcase their services and products.",
