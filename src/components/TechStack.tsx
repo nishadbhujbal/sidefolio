@@ -32,12 +32,21 @@ export const TechStack = () => {
     {
       title: "Vercel",
       src: "/images/logos/vercel.png",
-
       className: "h-10 w-24",
     },
     {
       title: "Docker",
       src: "/images/logos/docker.png",
+      className: "h-10 w-24",
+    },
+    {
+      title: "PostgreSQL",
+      src: "/images/logos/postgresql.jpg",
+      className: "h-10 w-24",
+    },
+    {
+      title: "Prisma",
+      src: "/images/logos/prisma.png",
       className: "h-10 w-24",
     }
   ];

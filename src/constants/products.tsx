@@ -1,14 +1,57 @@
 
 // import sidefolioMoonbeam from "public/images/sidefolio-moonbeam.png";
 // import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
+import { title } from "process";
 import hrlanding from "public/images/hrlanding.png";
 import hrlanding2 from "public/images/hrlanding2.png";
 import hrlanding3 from "public/images/hrlanding3.png";
 import k3dfpage from "public/images/k3dfpage.png";
 import k3dfpage2 from "public/images/k3dfpage2.png";
 import k3dfpage3 from "public/images/k3dfpage3.png";
+import formgeniuspage1 from "public/images/formgeniuspage1.png";
+import formgeniuspage2 from "public/images/formgeniuspage2.png";
+import formgeniuspage3 from "public/images/formgeniuspage3.png";
+import documindpage1 from "public/images/documindpage1.png";
+import documindpage2 from "public/images/documindpage2.png";
+import mindcanvaspage1 from "public/images/mindcanvaspage1.png";
+import mindcanvaspage2 from "public/images/mindcanvaspage2.png";
 
 export const products = [
+  {
+    href: "https://formgenius-seven.vercel.app/",
+    title: "FormGenius",
+    description:
+      "An AI form builder website where users can create forms and share them to collect survey data.",
+    thumbnail: formgeniuspage1,
+    images: [formgeniuspage1, formgeniuspage2, formgeniuspage3],
+    slug: "formgenius",
+    stack: ["Nextjs", "Tailwindcss", "OpenAI", "PostgreSQL", "Prisma"],
+    content: (
+      <div>
+        <p>
+          Formgenius is a form builder website where users can create forms and share them to collect survey data. The website was built using Nextjs and Tailwindcss. The website has a clean and modern design. The website has a form builder where the users can create forms and share them. The website has a dashboard where the users can see the responses of the forms they created. The website is hosted on Vercel.
+        </p>
+      </div>
+    )
+
+  },
+  {
+    href: "https://documind-nine.vercel.app/",
+    title: "Documind",
+    description: "An AI pdf chat application where users can upload pdfs and chat with the AI related to the content of the pdf.",
+    thumbnail: documindpage1,
+    images: [documindpage1, documindpage2],
+    slug: "documind",
+    stack: ["Nextjs", "Tailwindcss", "OpenAI", "PostgreSQL", "Drizzle", "Pinecone", "AWS S3"],
+    content: (
+      <div>
+        <p>
+          Documind is a pdf chat application where users can upload pdfs and chat with the AI related to the content of the pdf. The website was built using Nextjs and Tailwindcss. The website has a clean and modern design. The website has a pdf uploader where the users can upload pdfs and chat with the AI. The website has a dashboard where the users can see the chat history. The website is hosted on Vercel.
+        </p>
+      </div>
+    )
+  },
+
   {
     href: "https://hrclasses.co.in/",
     title: "HR Website",
@@ -47,64 +90,20 @@ export const products = [
       </div>
     ),
   },
-  // {
-  //   href: "https://gomoonbeam.com",
-  //   title: "Mindcanvas",
-  //   description:
-  //     "Never write from scratch again with Moonbeam, your AI first writing tool",
-  //   thumbnail: sidefolioMoonbeam,
-  //   images: [sidefolioMoonbeam, sidefolioMoonbeam2],
-  //   stack: ["Nextjs", "Tailwindcss"],
-  //   slug: "moonbeam",
-  //   content: (
-  //     <div>
-  //       <p>
-  //         Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-  //         dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-  //         cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-  //         cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-  //         non cupidatat duis esse velit ut culpa et.{" "}
-  //       </p>
-  //       <p>
-  //         Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-  //         Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-  //         sit aute fugiat incididunt nostrud consequat proident fugiat id.
-  //         Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-  //         reprehenderit. Cillum Lorem veniam eu magna exercitation.
-  //         Reprehenderit adipisicing minim et officia enim et veniam Lorem
-  //         excepteur velit adipisicing et Lorem magna.
-  //       </p>{" "}
-  //     </div>
-  //   ),
-  // },
-  // {
-  //   href: "https://tailwindmasterkit.com",
-  //   title: "Tailwind Master Kit",
-  //   description:
-  //     "A beautiful and comprehensive Tailwind CSS components library for building modern websites and applications.",
-  //   thumbnail: sidefolioTailwindMasterKit,
-  //   images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
-  //   stack: ["Nextjs", "Tailwindcss"],
-  //   slug: "tailwindmasterkit",
-  //   content: (
-  //     <div>
-  //       <p>
-  //         Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-  //         dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-  //         cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-  //         cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-  //         non cupidatat duis esse velit ut culpa et.{" "}
-  //       </p>
-  //       <p>
-  //         Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-  //         Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-  //         sit aute fugiat incididunt nostrud consequat proident fugiat id.
-  //         Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-  //         reprehenderit. Cillum Lorem veniam eu magna exercitation.
-  //         Reprehenderit adipisicing minim et officia enim et veniam Lorem
-  //         excepteur velit adipisicing et Lorem magna.
-  //       </p>{" "}
-  //     </div>
-  //   ),
-  // },
+  {
+    href: "https://mindcanvas-1.vercel.app/",
+    title: "MindCanvas",
+    description: "A full stack blogging platform where users can write and share blogs.",
+    thumbnail: mindcanvaspage1,
+    images: [mindcanvaspage1, mindcanvaspage2],
+    slug: "mindcanvas",
+    stack: ["Nextjs", "Tailwindcss", "PostgreSQL", "Prisma", "NextAuth", "Blocknote", "Cloudinary"],
+    content: (
+      <div>
+        <p>
+          MindCanvas is a full stack blogging platform where users can write and share blogs. The website was built using Nextjs and Tailwindcss. The website has a clean and modern design. The website has a blog editor where the users can write blogs, draft blogs and share them. The website has a dashboard where the users can see the blogs they wrote. The website is hosted on Vercel.
+        </p>
+      </div>
+    )
+  }
 ];
