@@ -8,9 +8,9 @@ import hrlanding3 from "public/images/hrlanding3.png";
 import k3dfpage from "public/images/k3dfpage.png";
 import k3dfpage2 from "public/images/k3dfpage2.png";
 import k3dfpage3 from "public/images/k3dfpage3.png";
-import formgeniuspage1 from "public/images/formgeniuspage1.png";
-import formgeniuspage2 from "public/images/formgeniuspage2.png";
-import formgeniuspage3 from "public/images/formgeniuspage3.png";
+import conceptmap1 from "public/images/conceptmap1.png";
+import conceptmap2 from "public/images/conceptmap2.png";
+import conceptmap3 from "public/images/conceptmap3.png";
 import documindpage1 from "public/images/documindpage1.png";
 import documindpage2 from "public/images/documindpage2.png";
 import mindcanvaspage1 from "public/images/mindcanvaspage1.png";
@@ -18,18 +18,18 @@ import mindcanvaspage2 from "public/images/mindcanvaspage2.png";
 
 export const products = [
   {
-    href: "https://formgenius-seven.vercel.app/",
-    title: "FormGenius",
+    href: "https://conceptmapai.vercel.app/",
+    title: "Conceptmap.ai",
     description:
-      "An AI form builder website where users can create forms and share them to collect survey data.",
-    thumbnail: formgeniuspage1,
-    images: [formgeniuspage1, formgeniuspage2, formgeniuspage3],
-    slug: "formgenius",
-    stack: ["Nextjs", "Tailwindcss", "OpenAI", "PostgreSQL", "Prisma"],
+      "Create AI powered concept maps for learning new topics and subjects.",
+    thumbnail: conceptmap1,
+    images: [conceptmap1, conceptmap2, conceptmap3],
+    slug: "conceptmapai",
+    stack: ["Nextjs", "Tailwindcss", "X AI", "PostgreSQL", "Prisma", "React Flow"],
     content: (
       <div>
         <p>
-          Formgenius is a form builder website where users can create forms and share them to collect survey data. The website was built using Nextjs and Tailwindcss. The website has a clean and modern design. The website has a form builder where the users can create forms and share them. The website has a dashboard where the users can see the responses of the forms they created. The website is hosted on Vercel.
+          Conceptmap.ai is a web application where users can create AI powered concept maps for learning new topics and subjects. The website was built using Nextjs and Tailwindcss. The website has a clean and modern design. The website has a concept map editor where the users can create concept maps and the AI will suggest the nodes and connections. It has a dashboard where the users can see the concept maps they created. The website is hosted on Vercel.
         </p>
       </div>
     )
@@ -65,8 +65,6 @@ export const products = [
       <div>
         <p>
        This website was my secong freelance project and was built for a local coaching class to showcase their business and services. The website was built using Nextjs and Tailwindcss. The website is fully responsive and has a clean and modern design. The website has a announcement section where the admin can post announcments and the users can read them. The website also has a contact form where the users can contact the admin. The website is hosted on Vercel.
-
-
         </p>
         
       </div>
@@ -90,20 +88,5 @@ export const products = [
       </div>
     ),
   },
-  {
-    href: "https://mindcanvas-1.vercel.app/",
-    title: "MindCanvas",
-    description: "A full stack blogging platform where users can write and share blogs.",
-    thumbnail: mindcanvaspage1,
-    images: [mindcanvaspage1, mindcanvaspage2],
-    slug: "mindcanvas",
-    stack: ["Nextjs", "Tailwindcss", "PostgreSQL", "Prisma", "NextAuth", "Blocknote", "Cloudinary"],
-    content: (
-      <div>
-        <p>
-          MindCanvas is a full stack blogging platform where users can write and share blogs. The website was built using Nextjs and Tailwindcss. The website has a clean and modern design. The website has a blog editor where the users can write blogs, draft blogs and share them. The website has a dashboard where the users can see the blogs they wrote. The website is hosted on Vercel.
-        </p>
-      </div>
-    )
-  }
+ 
 ];
