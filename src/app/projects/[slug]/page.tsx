@@ -24,9 +24,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   } else {
     return {
-      title: "Projects | Vishv Salvi",
-      description:
-        "Vishv Salvi is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+          title: "Projects | Nishad Bhujbal",
+    description:
+      "Nishad Bhujbal is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
     };
   }
 }

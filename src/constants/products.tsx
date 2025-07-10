@@ -5,9 +5,7 @@ import { title } from "process";
 import hrlanding from "public/images/hrlanding.png";
 import hrlanding2 from "public/images/hrlanding2.png";
 import hrlanding3 from "public/images/hrlanding3.png";
-import k3dfpage from "public/images/k3dfpage.png";
-import k3dfpage2 from "public/images/k3dfpage2.png";
-import k3dfpage3 from "public/images/k3dfpage3.png";
+
 import conceptmap1 from "public/images/conceptmap1.png";
 import conceptmap2 from "public/images/conceptmap2.png";
 import conceptmap3 from "public/images/conceptmap3.png";
@@ -15,25 +13,18 @@ import documindpage1 from "public/images/documindpage1.png";
 import documindpage2 from "public/images/documindpage2.png";
 import mindcanvaspage1 from "public/images/mindcanvaspage1.png";
 import mindcanvaspage2 from "public/images/mindcanvaspage2.png";
+import cleverbooks2 from "public/images/nishad_project_2.png";
+import cleverbooks1 from "public/images/nishad_project_1.png";
 
 export const products = [
   {
-    href: "https://conceptmapai.vercel.app/",
-    title: "Conceptmap.ai",
-    description:
-      "Create AI powered concept maps for learning new topics and subjects.",
-    thumbnail: conceptmap1,
-    images: [conceptmap1, conceptmap2, conceptmap3],
-    slug: "conceptmapai",
-    stack: ["Nextjs", "Tailwindcss", "X AI", "PostgreSQL", "Prisma", "React Flow"],
-    content: (
-      <div>
-        <p>
-          Conceptmap.ai is a web application where users can create AI powered concept maps for learning new topics and subjects. The website was built using Nextjs and Tailwindcss. The website has a clean and modern design. The website has a concept map editor where the users can create concept maps and the AI will suggest the nodes and connections. It has a dashboard where the users can see the concept maps they created. The website is hosted on Vercel.
-        </p>
-      </div>
-    )
-
+    href: "https://cleverbooks-zb36.onrender.com/",
+    title: "Cleverbooks",
+    description: "A book store landing page built with Nextjs and Tailwindcss.",
+    thumbnail: cleverbooks2,
+    images: [cleverbooks2, cleverbooks1],
+    slug: "cleverbooks",
+    stack: ["Nextjs", "Tailwindcss"],
   },
   {
     href: "https://documind-nine.vercel.app/",
@@ -70,23 +61,6 @@ export const products = [
       </div>
     ),
   },
-  {
-    href: "https://k3df.vercel.app/",
-    title: "Karnix 3D Farm landing page",
-    description:
-      "A landing page for a 3D printing farm to showcase their services and products.",
-    thumbnail: k3dfpage,
-    images: [k3dfpage2, k3dfpage3],
-    stack: ["React", "Tailwindcss"],
-    slug: "k3df",
-    content: (
-      <div>
-        <p>
-         This is my first even freelance gig and first earning through tech. The website was built for a 3D printing farm to showcase their services and products. The website was built using Reactjs and Tailwindcss. The website is fully responsive and has a clean and modern design. The website has a contact form where the users can contact the admin. The website is hosted on Cloudflare previously, but the owner took it down and hosted it somewhere else.
-        </p>
-       
-      </div>
-    ),
-  },
+
  
 ];

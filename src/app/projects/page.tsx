@@ -7,9 +7,9 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Projects | Vishv Salvi",
+  title: "Projects | Nishad Bhujbal",
   description:
-    "Vishv Salvi is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Nishad Bhujbal is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
 };
 
 export default function Projects() {

@@ -11,9 +11,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Vishv Salvi - Developer",
+  title: "Nishad Bhujbal - Developer",
   description:
-    "Vishv Salvi is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Nishad Bhujbal is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
 };
 
 export default function RootLayout({

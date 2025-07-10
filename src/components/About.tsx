@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function About() {
   const images = [
     "/images/hyper1.png",
-    "/images/hyper2.png",
+    "/images/sidefolio_1.jpeg",
     "/images/hyper3.jpg",
     "/images/hyper4.jpg",
 
@@ -75,7 +75,7 @@ export default function About() {
 
       <div className="max-w-4xl">
         <Paragraph className=" mt-4">
-        My name is Vishv Salvi, and I am a passionate full stack developer. My fascination with computers began when I received my first computer at the age of ten. Initially, I used it to play video games and explore the vast realms of history on Wikipedia. A few years ago, I stumbled upon HTML, CSS, and JavaScript, which marked the beginning of my development journey. I started with small projects, such as displaying GitHub profile data and creating simple backend APIs.
+        My name is Nishad Bhujbal, and I am a passionate full stack developer. My fascination with computers began when I received my first computer at the age of ten. Initially, I used it to play video games and explore the vast realms of history on Wikipedia. A few years ago, I stumbled upon HTML, CSS, and JavaScript, which marked the beginning of my development journey. I started with small projects, such as displaying GitHub profile data and creating simple backend APIs.
         </Paragraph>
         <Paragraph className=" mt-4">
         One day, I discovered that people actually paid for website development. This revelation sparked a new venture for me. I began cold-calling local gyms and businesses, offering my services to build websites for them. After contacting over 50 businesses, I landed my first two freelance projects. This was a milestone for me as I earned my first income through technology.
@@ -85,11 +85,11 @@ export default function About() {
         A few months later, I secured an internship at a health tech company in Mumbai, which was a remote position. Everything was going well, but unfortunately, I became complacent and lost the spark that once fueled my passion for coding and development.
         </Paragraph>
         <Paragraph className=" mt-4">
-        Now, I&apos;m determined to restart my journey in full stack development and regain my lost skills. I document my progress by posting videos on Twitter and writing blogs, hoping to inspire others along the way. My ultimate goal is to land a job where my work can bring real value to people&apos;s lives.
+        Now, I&apos;m determined to restart my journey in full stack development and regain my lost skills. I document my progress and share my experiences, hoping to inspire others along the way. My ultimate goal is to land a job where my work can bring real value to people&apos;s lives.
         </Paragraph>
        
         <Paragraph className=" mt-4">
-          Thank you for being a part of my journey. I hope you find my content valuable and inspiring. Feel free to reach out to me on Twitter or LinkedIn if you have any questions or just want to chat.
+          Thank you for being a part of my journey. I hope you find my content valuable and inspiring. Feel free to reach out to me on LinkedIn if you have any questions or just want to chat.
         </Paragraph>
       </div>
     </div>
